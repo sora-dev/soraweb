@@ -59,7 +59,7 @@ export default function Home () {
             </p>
             <div className='text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400 items-center'>
               <a
-                href='#'
+                href='https://www.linkedin.com/in/js-sora/'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <AiFillLinkedin className='h-15 w-15' />
@@ -237,7 +237,7 @@ export default function Home () {
             </span>
             <div class='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
               <a
-                href='#'
+                href='https://www.linkedin.com/in/js-sora/'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <AiFillLinkedin className='w-5 h-5' />
