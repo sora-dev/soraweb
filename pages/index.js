@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { AiFillLinkedin, AiFillSkype } from 'react-icons/ai'
-import { SiMessenger, SiUpwork } from 'react-icons/si'
+import { SiUpwork } from 'react-icons/si'
+import { RiWhatsappFill } from 'react-icons/ri'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { useState } from 'react'
 import deved from '../public/dev-ed-wave.png'
@@ -65,22 +66,22 @@ export default function Home () {
                 <AiFillLinkedin className='h-15 w-15' />
               </a>
               <a
-                href='#'
+                href='https://www.upwork.com/freelancers/~01aa0b8720512ad5ac?viewMode=1'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <SiUpwork className='h-15 w-15' />
               </a>
               <a
-                href='#'
+                href='https://join.skype.com/invite/xHkDfpwIhf8B'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <AiFillSkype className='h-15 w-15' />
               </a>
               <a
-                href='#'
+                href='https://wa.me/+639487637264'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
-                <SiMessenger className='h-10 w-10' />
+                <RiWhatsappFill className='h-10 w-10' />
               </a>
             </div>
             <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96'>
@@ -244,25 +245,25 @@ export default function Home () {
                 <span class='sr-only'>Linkedin</span>
               </a>
               <a
-                href='#'
+                href='https://www.upwork.com/freelancers/~01aa0b8720512ad5ac?viewMode=1'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <SiUpwork className='w-5 h-5' />
                 <span class='sr-only'>Upwork</span>
               </a>
               <a
-                href='#'
+                href='https://join.skype.com/invite/xHkDfpwIhf8B'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white '
               >
                 <AiFillSkype className='w-5 h-5' />
                 <span class='sr-only'>Skype</span>
               </a>
               <a
-                href='#'
+                href='https://wa.me/+639487637264'
                 class='text-gray-500 hover:text-gray-900 dark:hover:text-white'
               >
-                <SiMessenger className='w-5 h-5' />
-                <span class='sr-only'>Messenger</span>
+                <RiWhatsappFill className='w-5 h-5' />
+                <span class='sr-only'>Whatsapp</span>
               </a>
             </div>
           </div>
