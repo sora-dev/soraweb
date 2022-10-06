@@ -40,7 +40,7 @@ export default function Home () {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-orange-400 font-medium dark:text-orange-400 md:text-6xl'>
+            <h2 className='text-5xl py-2 text-orange-400 font-medium dark:text-orange-300 md:text-6xl'>
               Jethro Simbulan
             </h2>
             <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>
@@ -222,7 +222,7 @@ export default function Home () {
             </div>
           </div>
         </section>
-        <footer class='p-4 bg-white sm:p-6 dark:bg-gray-900'>
+        <footer class='p-4 bg-white sm:p-6 dark:bg-neutral-900'>
           <hr class='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
           <div class='sm:flex sm:items-center sm:justify-between sm:flex-column sm:flex-row flex flex-col items-center'>
             <span class='text-sm text-gray-500 dark:text-gray-300 sm:text-center'>
