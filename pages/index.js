@@ -1,11 +1,16 @@
 import Head from 'next/head'
-import { AiFillLinkedin, AiFillSkype } from 'react-icons/ai'
-import { SiUpwork } from 'react-icons/si'
+import { AiFillLinkedin, AiFillSkype, AiFillHtml5 } from 'react-icons/ai'
+import {
+  SiUpwork,
+  SiJavascript,
+  SiTailwindcss,
+  SiMongodb
+} from 'react-icons/si'
 import { RiWhatsappFill } from 'react-icons/ri'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
+import { BsFillMoonStarsFill, BsWordpress } from 'react-icons/bs'
+import { DiCss3, DiNodejsSmall } from 'react-icons/di'
 import { useState } from 'react'
 import avatar from '../public/avatar.png'
-import avatar2 from '../public/avatar2.png'
 import code from '../public/code.png'
 import design from '../public/design.png'
 import consulting from '../public/consulting.png'
@@ -102,21 +107,6 @@ export default function Home () {
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
-              <Image src={design} width={100} height={100} alt='' />
-              <h3 className='text-lg font-medium pt-8 pb-2  '>
-                Beautiful Designs
-              </h3>
-              <p className='py-2'>
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
-            </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={code} width={100} height={100} alt='' />
               <h3 className='text-lg font-medium pt-8 pb-2 '>
@@ -126,11 +116,16 @@ export default function Home () {
                 Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
+              <h4 className='py-4 text-orange-600'>Tools I Use</h4>
+              <div className='flex justify-center  items-center flex-wrap'>
+                <AiFillHtml5 className='h-10 w-10 fill-[#F16524] mx-2' />
+                <DiCss3 className='h-10 w-10 fill-[#2299F8] mx-2' />
+                <SiJavascript className='h-10 w-10 fill-[#F7E018]  mx-2' />
+                <BsWordpress className='h-10 w-10 fill-[#04769C]  mx-2' />
+                <SiTailwindcss className='h-10 w-10 fill-[#01B7D6]  mx-2' />
+                <DiNodejsSmall className='h-10 w-10 fill-[#3C873A]' />
+                <SiMongodb className='h-10 w-10 fill-[#409C39]' />
+              </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={consulting} width={100} height={100} alt='' />
