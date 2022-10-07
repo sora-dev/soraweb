@@ -118,13 +118,13 @@ export default function Home () {
               </p>
               <h4 className='py-4 text-orange-600'>Tools I Use</h4>
               <div className='flex justify-center  items-center flex-wrap'>
-                <AiFillHtml5 className='h-10 w-10 fill-[#F16524] mx-2' />
-                <DiCss3 className='h-10 w-10 fill-[#2299F8] mx-2' />
-                <SiJavascript className='h-10 w-10 fill-[#F7E018]  mx-2' />
-                <BsWordpress className='h-10 w-10 fill-[#04769C]  mx-2' />
-                <SiTailwindcss className='h-10 w-10 fill-[#01B7D6]  mx-2' />
-                <DiNodejsSmall className='h-10 w-10 fill-[#3C873A]' />
-                <SiMongodb className='h-10 w-10 fill-[#409C39]' />
+                <AiFillHtml5 className='h-10 w-10 fill-[#F16524] m-2' />
+                <DiCss3 className='h-10 w-10 fill-[#2299F8] m-2' />
+                <SiJavascript className='h-10 w-10 fill-[#F7E018]  m-2' />
+                <BsWordpress className='h-10 w-10 fill-[#04769C]  m-2' />
+                <SiTailwindcss className='h-10 w-10 fill-[#01B7D6]  m-2' />
+                <DiNodejsSmall className='h-10 w-10 fill-[#3C873A] m-2' />
+                <SiMongodb className='h-10 w-10 fill-[#409C39] m-2' />
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
