@@ -4,7 +4,8 @@ import { SiUpwork } from 'react-icons/si'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { useState } from 'react'
-import deved from '../public/dev-ed-wave.png'
+import avatar from '../public/avatar.png'
+import avatar2 from '../public/avatar2.png'
 import code from '../public/code.png'
 import design from '../public/design.png'
 import consulting from '../public/consulting.png'
@@ -79,14 +80,14 @@ export default function Home () {
                 <RiWhatsappFill className='h-10 w-10' />
               </a>
             </div>
-            <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96'>
-              <Image src={deved} layout='fill' objectFit='cover' alt='' />
+            <div className='mx-auto bg-gradient-to-b from-orange-400 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96'>
+              <Image src={avatar} layout='fill' objectFit='cover' alt='' />
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white '>Services I offer</h3>
+            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               Since the beginning of my journey as a freelance designer and
               developer, Ive done remote work for
@@ -150,8 +151,8 @@ export default function Home () {
           <div>
             <h3 className='text-3xl py-1 dark:text-white '>Portofolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the beginning of my journey as a freelance front-end
-              developer, Ive done remote work for
+              When i started my journey as a freelance front-end developer, Ive
+              done remote work for
               <span className='text-orange-500'>
                 {' '}
                 small to medium businesses{' '}
@@ -161,8 +162,8 @@ export default function Home () {
               for both business and consumer use.
             </p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I offer from a wide range of services, including creating website
+              .
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
