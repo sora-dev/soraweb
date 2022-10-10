@@ -56,8 +56,8 @@ export default function Home () {
               Front-End Developer.
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'>
-              Hi! Im a freelancer from the Philippines mainly focusing in
-              Front-End Development. Contact me below and lets start coding!
+              Hi! Im a freelancer from the Philippines focusing in Front-End
+              Development. Contact me below and lets start coding!
             </p>
             <div className='text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400 items-center'>
               <a
@@ -94,16 +94,9 @@ export default function Home () {
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the beginning of my journey as a freelance designer and
-              developer, Ive done remote work for
-              <span className='text-amber-600'> agencies </span>
-              consulted for <span className='text-amber-600'>startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I offer from a wide range of services, including website
+              development, maintenance, settting up your website to a domain and
+              hosting and consulatation for your project .
             </p>
           </div>
           <div className='lg:flex gap-10'>
@@ -116,7 +109,9 @@ export default function Home () {
                 Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
-              <h4 className='py-4 text-orange-600'>Tools I Use</h4>
+              <h4 className='py-4 text-orange-600 font-semibold'>
+                Tools I Use
+              </h4>
               <div className='flex justify-center  items-center flex-wrap'>
                 <AiFillHtml5 className='h-10 w-10 fill-[#F16524] m-2' />
                 <DiCss3 className='h-10 w-10 fill-[#2299F8] m-2' />
@@ -134,11 +129,6 @@ export default function Home () {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
             </div>
           </div>
         </section>
@@ -155,10 +145,6 @@ export default function Home () {
               , consulted for <span className='text-orange-500'>startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer from a wide range of services, including creating website
-              .
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
