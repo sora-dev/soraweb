@@ -8,6 +8,7 @@ import {
 } from 'react-icons/si'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { BsFillMoonStarsFill, BsWordpress } from 'react-icons/bs'
+import { BiSun } from 'react-icons/bi'
 import { DiCss3, DiNodejsSmall } from 'react-icons/di'
 import { useState } from 'react'
 import avatar from '../public/avatar.png'
@@ -39,14 +40,14 @@ export default function Home () {
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
             <h1 className='font-poppins text-3xl font-medium'>Sora ッ</h1>
-            <ul className='flex items-center'>
-              <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=' cursor-pointer text-2xl'
-                />
-              </li>
-            </ul>
+            <button onClick={() => setDarkMode(!darkMode)}>
+              <span className='dark:hidden cursor-pointer text-3xl'>
+                <BiSun />
+              </span>
+              <span className='hidden dark:inline cursor-pointer text-2xl'>
+                <BsFillMoonStarsFill />
+              </span>
+            </button>
           </nav>
           <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-2 text-orange-400 font-medium dark:text-orange-300 md:text-6xl'>
@@ -95,7 +96,7 @@ export default function Home () {
             <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               I offer from a wide range of services, including website
-              development, maintenance, settting up your website to a domain and
+              development, maintenance, settting up your website on a domain and
               hosting and consulatation for your project .
             </p>
           </div>
