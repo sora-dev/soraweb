@@ -32,7 +32,8 @@ export default function Home () {
         <title>Sora ッ</title>
         <meta
           name='description'
-          content='Soraッ is a freelancer based on the Philippines.'
+          content="Are you looking for someone to build a website for your business according to the latest design and functionalities or do you want to redesign your existing site to make it look more attractive, professional, and responsive design according to the latest trends? you're in the right place.
+          "
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
